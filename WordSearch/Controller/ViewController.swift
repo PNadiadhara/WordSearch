@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var gameBoardStackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
